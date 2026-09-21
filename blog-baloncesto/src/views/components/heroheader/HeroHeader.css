@@ -1,0 +1,27 @@
+#hero_header {
+    background-color: transparent;
+    background-image: url("../../../assets/images/herofondo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+
+}
+
+#titulo_web {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#subtitulo_web {
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 10px;
+    margin-bottom: 18px;
+}

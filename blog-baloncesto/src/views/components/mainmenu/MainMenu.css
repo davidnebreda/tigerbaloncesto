@@ -1,0 +1,38 @@
+#main_menu
+{
+    background-color: var(--color-primary);
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    gap: 4px;
+    overflow-x: auto;
+}
+
+#main_menu_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_menu_item
+{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main_menu_item_activo
+{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
